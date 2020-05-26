@@ -60,7 +60,7 @@ cv::Mat ImageNode::process(LoopyFunctionInput inputs)
         return output;
     }
     cachedFilename = currentFilename;
-    cv::Mat loadedImage = cv::imread(currentFilename, CV_LOAD_IMAGE_UNCHANGED);
+    cv::Mat loadedImage = cv::imread(currentFilename, cv::IMREAD_UNCHANGED);
 
     int bgw = loadedImage.cols;
     int bgh = loadedImage.rows;

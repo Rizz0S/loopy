@@ -2,7 +2,7 @@
     "in" : {
         "type" : "ImageNode",
         "params" : {
-            "file" : "circle_boys2.png"
+            "file" : "test.png"
         }
     },
 

@@ -2,7 +2,7 @@
     "in" : {
         "type" : "ImageNode",
         "params" : {
-            "file" : "foot.png"
+            "file" : "test.png"
         }
     },
 
@@ -63,5 +63,5 @@
     },
 
 
-    "output" : "add1"
+    "output" : "noise"
 }
